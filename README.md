@@ -44,7 +44,7 @@ con esto ya está configurado el cliente rhc, ahora pasamos a crear el proyecto 
 
 * rhc create-app practica1 php-5.3
 
-Imagen
+![cap1](https://raw.github.com/jpm88/IV-Ejercicios/master/captura1.png)
 
 Una vez creado el proyecto pasamos a copiarlo a nuestro pc, usando la dirección que OpenShift nos ofrece para clonar
 directorios a nuestro pc a través de SSH:
@@ -58,8 +58,13 @@ php, ahora toca subirla, con los siguientes comando:
 * git commit -a -m "Practica 1 de IV" 
 * git push origin master
 
+
+![cap2](https://raw.github.com/jpm88/IV-Ejercicios/master/captura2.png)
+
 Comentar que los fuentes de la aplicación también se han subido mediante git a nuestro repositorio de GitHub
 con la licencia GPLv3.
 
 Hecho esto ya estará nuestra aplicación subida y funcionando, entrando en el siguiente enlace:
+
+http://practica1-jpm88.rhcloud.com/
 
